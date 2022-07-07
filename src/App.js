@@ -18,24 +18,24 @@ function App() {
       <img src="https://raw.githubusercontent.com/briancodex/react-form-v1/286f4a4603bda257ae001dc57c74d7f30bd4eedb/public/img/img-2.svg" alt="img"/>
       <Form>
       <Form.Group className="mb-3">
-        <Form.Label class='name'>User name</Form.Label>
+        <Form.Label className='name'>User name</Form.Label>
         <Form.Control  placeholder="User name" />
       </Form.Group>
 
       <Form.Group className="mb-3" >
-        <Form.Label class='name'>Email address</Form.Label>
+        <Form.Label className='name'>Email address</Form.Label>
         <Form.Control  placeholder="Enter email" />
       </Form.Group>
 
       <Form.Group className="mb-3" >
-        <Form.Label class='name'>Password</Form.Label>
+        <Form.Label className='name'>Password</Form.Label>
         <Form.Control  placeholder="Password" />
       </Form.Group>
       
       
 
       <Form.Group className="mb-3" >
-        <Form.Label class='name'>Confirm Password</Form.Label>
+        <Form.Label className='name'>Confirm Password</Form.Label>
         <Form.Control  placeholder="Confirm Password" />
       </Form.Group>
 
